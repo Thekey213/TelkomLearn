@@ -1,0 +1,80 @@
+﻿@model TelkomLearn.Models.StreakModel
+
+@{
+   
+}
+
+
+<head>
+
+    <style>
+         backdrop-filter: blur(10px); /* Optional: blur effect */
+        }
+
+        .container {
+            position: relative;
+            width: 866.2px;
+            height: 496.9px;
+            margin-top: 20px; /* Space for navbar */
+        }
+
+        .card {
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            border-radius: 36px;
+            position: relative;
+        }
+
+        .profile-image {
+            width: 252px;
+            height: 252.2px;
+            border-radius: 50%;
+            position: absolute;
+            left: 63.4px;
+            top: 122px;
+        }
+
+        .name {
+            width: 514px;
+            height: 64.8px;
+            position: absolute;
+            left: 341px;
+            top: 260px;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 64.8px;
+        }
+
+        .health-bar {
+            width: 410.9px;
+            height: 50.9px;
+            background-color: #ff6347;
+            border-radius: 50px;
+            position: absolute;
+            left: 341px;
+            top: 175px;
+        }
+
+        .health-fill {
+            height: 100%;
+            background-color: #4caf50; /* Set fill color */
+            border-radius: 50px;
+            width: @Model.StreakPercentage%; /* Set width based on remaining streak percentage */
+        }
+    </style>
+</head>
+
+   
+
+    <div class="container">
+        <div class="card">
+            <img class="profile-image" src="https://via.placeholder.com/252" alt="Profile Placeholder">
+            <div class="health-bar">
+                <div class="health-fill"></div>
+            </div>
+            <div class="name">@User.Identity.Name</div>
+        </div>
+    </div>
+
+

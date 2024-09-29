@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Play Quiz";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/styles/play-quiz.css">
+    <link rel="stylesheet" href="~/styles/general.css">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div class="body-container">
+        <div class="content-container">
+            <div class="question-number">Question 1</div>
+            <div class="question-type">Question Type</div>
+            <div class="answer-container"></div>
+            <div class="next-questions">
+                <button class="next">Next</button>
+            </div>
+        </div>
+        <div class="home" onclick="location.href='@Url.Action("Index", "Home")'">Home Page</div>
+        <div class="anime">
+            <img src="~/images/background-images/win.jpg" alt="win" class="win-anime">
+            <img src="~/images/background-images/loss.jpg" alt="loss" class="loss-anime">
+        </div>
+    </div>
+
+    <script type="module" src="~/scripts/quiz.js"></script>
+</body>
+</html>

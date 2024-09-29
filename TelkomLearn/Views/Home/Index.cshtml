@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Telkom Play";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/styles/general.css">
+    <link rel="stylesheet" href="~/styles/index.css">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+  
+    <div class="body-container">
+        <div class="upper items">
+            <button class="start-btn" onclick="location.href='@Url.Action("PlayQuiz", "Home")'">START</button>
+        </div>
+        <div class="lower items">
+            <div class="image-carrier">
+                <img src="~/images/background-images/index-background2.jpg" alt="background-image" class="background-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

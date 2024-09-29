@@ -1,0 +1,74 @@
+.header-body{
+  background-color: rgb(238, 177, 197);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.left-section{
+  flex: 1;
+  text-align: center;
+}
+
+.middle-section{
+  flex: 1;
+}
+
+.right-section{
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.singup:hover,.login:hover,.profile:hover{
+  background-color: #7c8cfd;
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.body-container{
+  background-color: #eac9fe;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.item{
+  flex-grow: 1;
+  flex-basis: 300;
+}
+
+.upper{
+  flex: 2;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower{
+  flex: 1;
+}
+
+.start-btn{
+  padding: 23px;
+  border: none;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: larger;
+  background-color: #7383fa;
+}
+
+.image-carrier{
+  width: 100%;
+}
+
+.background-image{
+  height: 100%;
+}
