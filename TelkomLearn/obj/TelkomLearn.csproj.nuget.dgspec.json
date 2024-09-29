@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj": {}
+    "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj": {
+    "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
+        "projectUniqueName": "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
         "projectName": "TelkomLearn",
-        "projectPath": "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
+        "projectPath": "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
         "packagesPath": "C:\\Users\\azdil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\obj\\",
+        "outputPath": "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azdil\\AppData\\Roaming\\NuGet\\NuGet.Config",

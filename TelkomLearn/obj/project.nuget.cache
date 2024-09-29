@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rZ1+D2CCaWgGipb2F4aiiH9K1ygsfUHmUi12wPRcesxGYIdU2/uABf4Oq+Z4gX9IwpPAfMhNfAI7dCsI2eniAg==",
+  "dgSpecHash": "eZ7YTkzDOYJQioDf4bcaoX23hTB6Hc+lYoaqxum5Y0HLfT8Cd52ECBxFKp6gplm3XcxA5bSwps0cZ3M8CSpIyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azdil\\Downloads\\TelkomLearn\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
+  "projectFilePath": "c:\\Users\\azdil\\source\\repos\\TelkomLearn\\TelkomLearn\\TelkomLearn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azdil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\azdil\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
